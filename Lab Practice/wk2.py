@@ -10,7 +10,7 @@ fa = ((9/5) * ce) + 32
 
 print(f"{ce} in celsius is {fa} in fahrenheit")
 
-print("-----")
+print("\n-----\n")
 
 # Question 2
 # Read radius and length input and output area and volume of a cylinder
@@ -24,7 +24,7 @@ vol = area * len
 
 print(f"The area is {round(area, 2)}\nThe colume is {round(vol, 2)}")
 
-print("-----")
+print("\n-----\n")
 
 # Question 3
 # Read feet and convert into meters
@@ -34,3 +34,5 @@ ft = eval(input("Input feet: "))
 me = ft * 0.305
 
 print(f"{ft} feet is {me} meters")
+
+print("\n\n")
