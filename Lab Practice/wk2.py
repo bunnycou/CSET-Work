@@ -22,7 +22,7 @@ len = eval(input("Input length of a cylinder: "))
 area = (rad**2) * pi
 vol = area * len
 
-print(f"\nThe area is {round(area, 2)}\nThe colume is {round(vol, 2)}")
+print(f"\nThe area is {round(area, 2)}\nThe volume is {round(vol, 2)}")
 
 print("\n-----\n")
 
