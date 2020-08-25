@@ -1,4 +1,7 @@
-import turtle
+from turtle import Turtle, Screen
+
+turtle = Turtle()
+screen = Screen()
 
 #print table
 print("Print Table:")
@@ -53,4 +56,4 @@ turtle.right(90)
 turtle.forward(100)
 
 #leaves turtle open until clicked
-turtle.exitonclick()
+screen.exitonclick()
