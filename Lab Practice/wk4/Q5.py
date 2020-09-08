@@ -27,10 +27,7 @@ turtle.circle(radius)
 turtle.penup()
 turtle.goto(x2, y2)
 turtle.pendown()
-turtle.begin_fill()
-turtle.fillcolor("red")
-turtle.circle(3)
-turtle.end_fill()
+turtle.dot(6, "red")
 
 # display status
 turtle.penup()
