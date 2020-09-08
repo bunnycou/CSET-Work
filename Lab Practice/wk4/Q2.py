@@ -7,8 +7,8 @@
 from random import randint
 
 # get two random numbers between 0 and 100 and get the answer
-a = randint(0, 100)
-b = randint(0, 100)
+a = randint(0, 9)
+b = randint(0, 9)
 
 # swap numbers so that there are no negatives
 if a < b:
