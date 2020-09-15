@@ -14,4 +14,5 @@ def main():
     k = max(i, j)
     print(f"The largest of {i} and {j} is {k}")
 
+# call the main function to actually run the above code
 main()
