@@ -2,7 +2,7 @@
 # Question 3 #
 ##############
 # modularized code example
-from GCDFunction import gcd
+from gcdFunction import gcd
 
 # get variables
 x, y = eval(input("Enter two numbers to find the greatest common divisor: "))
