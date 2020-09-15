@@ -2,8 +2,8 @@
 # Question 4 #
 ##############
 # more module practicce
-from isPrime import isPrime
+from isPrime import primes
 
 # collect input
-prime = eval(input("Input your number: "))
-print(f"That number is {isPrime(prime)}")
+x, y = eval(input("Input your number range: "))
+print(f"The prime numbers are {primes(x, y)}")
