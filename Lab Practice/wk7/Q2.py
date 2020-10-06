@@ -65,7 +65,7 @@ class widgetsDemo:
         print(f"{'Red' if self.v2.get() == 1 else 'Yellow'} is selected")
 
     def processButton(self):
-        print(f"Your name is {self.name}")
+        print(f"Your name is {self.name.get()}")
 
 # run everything
 widgetsDemo()
