@@ -19,3 +19,15 @@ for x in range(len(chars)):
     else:
         print(chars[x], end = " ")
 
+print("\n---\n")
+
+counts = 26*[0]
+
+for x in range(len(chars)):
+    counts[ord(chars[x]) - ord('a')] += 1
+
+for x in  range(len(counts)):
+    if (x + 1) % 13 == 0:
+        print(counts[x], chr(x + ord('a')))
+    else:
+        print(counts[x], chr(x+ord('a')), end = ' ')
