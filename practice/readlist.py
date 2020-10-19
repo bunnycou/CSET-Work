@@ -45,26 +45,28 @@ print("\nSet:")
 for x in nsett:
     print(x)
 
-# iterate through the lines and put everything into a dict
-# why would you do this...
-for x in fls:
-    line = x.split()
-    for y in range(0, len(line)):
-        dicty[f"{y}"] = line[y]
+# ay yo fuck dictionaries
 
-# check if something exists in the dictionary
-# have a variable to check if it exists in both dicts
-contains = False
-# this is cancer...
-for x in range(0, len(dicty)):
-    for y in ndicty:
-        if dicty[f"{x}"] == y:
-            contains = True
-    if not contains:
-        print(dicty[f"{x}"])
-        ndicty[f"{x}"] = dicty[f"{x}"]
+# # iterate through the lines and put everything into a dict
+# # why would you do this...
+# for x in fls:
+#     line = x.split()
+#     for y in range(0, len(line)):
+#         dicty[f"{y}"] = line[y]
 
-# display dict
-print("\nDict:")
-for x in ndicty:
-    print(x)
+# # check if something exists in the dictionary
+# # have a variable to check if it exists in both dicts
+# contains = False
+# # this is cancer...
+# for x in range(0, len(dicty)):
+#     for y in ndicty:
+#         if dicty[f"{x}"] == y:
+#             contains = True
+#     if not contains:
+#         print(dicty[f"{x}"])
+#         ndicty[f"{x}"] = dicty[f"{x}"]
+
+# # display dict
+# print("\nDict:")
+# for x in ndicty:
+#     print(x)
