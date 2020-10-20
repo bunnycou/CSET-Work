@@ -10,8 +10,8 @@ def main():
 
     # create a list to store points
     points  = list()
-    print(f"Enter {numberOfPoints} points")
 
+    print(f"Enter {numberOfPoints} points")
     # collect all inputs
     for _ in range(0, numberOfPoints):
         point = 2* [0]
