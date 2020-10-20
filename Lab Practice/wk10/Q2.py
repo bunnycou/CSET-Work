@@ -44,5 +44,6 @@ class pairs:
         for x in range(len(self.points)):
             if NearestPoints.distance(x, y, self.points[x][0], self.points[x][1]) <= RADIUS + 2:
                 return True
+        return False
 
 pairs()
