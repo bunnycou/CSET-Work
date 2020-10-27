@@ -21,5 +21,5 @@ class Circle(GeometricObject):
     def getPerimeter(self):
         return 2 * pi * self.__radius
 
-    def printCircle(self):
-        print(f"{self.__str__()} radius: {str(self.__radius)}")
+    def __str__(self):
+        return f"{super().__str__()} radius: {str(self.__radius)}"

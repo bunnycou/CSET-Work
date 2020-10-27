@@ -22,3 +22,6 @@ class Rectangle(GeometricObject):
 
     def getPerimeter(self):
         return 2 * (self.__width + self.__height)
+
+    def __str__(self):
+        return f"{super().__str__()} height: {str(self.__height)} width: {str(self.__width)}"
