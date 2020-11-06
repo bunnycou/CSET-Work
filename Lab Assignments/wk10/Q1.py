@@ -1,4 +1,5 @@
-# imports
+# Noah Cousino
+# R01506332
 
 # input
 filename = input("Enter name of file: ") or "scores.txt"
